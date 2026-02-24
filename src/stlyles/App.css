@@ -105,3 +105,9 @@
   color: #eed709;
   border-radius: 25px;
 }
+
+.winButton:hover {
+  background-color: #eed709;
+  color: brown;
+  cursor: grab;
+}
