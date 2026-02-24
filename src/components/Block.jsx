@@ -10,9 +10,6 @@ function Block({ index, randomBlock, setCounter, setIsWon, isWon }) {
     setPressed(true);
     setIsWon(+index === randomBlock);
     setCounter((prev) => prev + 1);
-
-    console.log(index);
-    console.log(randomBlock);
   };
 
   function getFar() {
