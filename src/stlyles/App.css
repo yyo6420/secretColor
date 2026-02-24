@@ -70,10 +70,17 @@
 }
 
 .counter {
-  color: #fcd116;
   font-weight: bold;
   font-size: 3rem;
+  color: #fcd116;
   text-shadow: 2px 2px #1d428a;
+}
+
+.counterText {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 2px 2px #11151d;
 }
 
 .winBlock {

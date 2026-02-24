@@ -10,7 +10,7 @@ function App() {
       <div>
         <Board setCounter={setCounter} />
       </div>
-      <h2>
+      <h2 className="counterText">
         מספר ניחושים: <span className="counter">{counter}</span>
       </h2>
     </div>
