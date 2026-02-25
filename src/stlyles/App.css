@@ -46,6 +46,7 @@
 
 .default:hover {
   background-color: #ffdd40;
+  cursor: grab;
 }
 
 .secretBlock {

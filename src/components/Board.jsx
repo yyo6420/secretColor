@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Block from "./Block";
 
-let randomNumber = Math.floor(Math.random() * 100);
+const randomNumber = Math.floor(Math.random() * 100);
 function Board({ setCounter }) {
   const [isWon, setIsWon] = useState(false);
   const [blocksArray, setBlockArray] = useState(new Array(100).fill(""));
