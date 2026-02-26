@@ -7,10 +7,10 @@ function Board({ setCounter }) {
   const [blocksArray, setBlockArray] = useState(new Array(100).fill(""));
 
   const playAgain = () => {
+    setCounter(0);
     setIsWon(false);
     randomNumber = Math.floor(Math.random() * 100);
     setBlockArray(new Array(100).fill(""));
-    setCounter(0);
   };
 
   return (
